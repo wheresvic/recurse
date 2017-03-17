@@ -1,5 +1,10 @@
 'use strict';
 
+/**
+ * A bare-bones implementation of a shopping cart. 
+ * 
+ * Only adding of items is supported at the moment. Also, all prices are in the lowest denomination possible.
+ */
 class Cart {
 
   constructor() {

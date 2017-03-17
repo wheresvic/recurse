@@ -1,3 +1,5 @@
+'use strict';
+
 // all prices are in pence
 
 const products = {

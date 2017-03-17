@@ -7,6 +7,7 @@ const Cart = require('./lib/Cart');
 const outputs = require('./lib/outputs');
 const products = require('./lib/products');
 
+// shopping cart
 let cart = new Cart();
 
 // seed cart
@@ -18,4 +19,5 @@ for (let i = 0; i < numItems; ++i) {
   cart.addItem(inputSet[index], 1);
 }
 
+// output cart
 console.log(outputs.getReceiptTextOutput(cart));

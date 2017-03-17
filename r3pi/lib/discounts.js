@@ -1,3 +1,5 @@
+'use strict';
+
 const discounts = {
   'papaya': '3-for-2'
 };
