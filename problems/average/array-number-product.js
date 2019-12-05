@@ -1,8 +1,8 @@
 // If you cannot use division then just subtract in a loop? Or is there another operator?
 
 function main() {
-  console.log(arrayNumberProduct([1, 2, 3, 4, 5]));
-  console.log(arrayNumberProduct([3, 2, 1]));
+  console.log("[1, 2, 3, 4, 5] => " + arrayNumberProduct([1, 2, 3, 4, 5]));
+  console.log("[3, 2, 1] => " + arrayNumberProduct([3, 2, 1]));
 }
 
 function arrayNumberProduct(input) {
